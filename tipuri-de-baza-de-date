@@ -1,0 +1,19 @@
+# tipuri de baza de date
+
+i = -10
+f = 0.001
+s = 'abc'
+l = [1,2,3]
+d = { 'a': 1, 'b': 2, 'c': 3 }
+b = False
+x = 100
+
+x = f > i
+
+print("variabila i este de tipul", type( i ) )
+print("variabila f este de tipul", type( f ) )
+print("variabila s este de tipul", type( s ) )
+print("variabila l este de tipul", type( l ) )
+print("variabila d este de tipul", type( d ) )
+print("variabila b este de tipul", type( b ) )
+print("variabila x este de tipul", type( x ) )

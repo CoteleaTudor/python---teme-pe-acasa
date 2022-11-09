@@ -1,0 +1,27 @@
+# Identificarea si schemele de numire
+
+from time import process_time_ns # timplul de procesare a functiei / execritiului?
+
+
+students_firstname = "Cotelea"
+Students_lastname  = "Tudor"   # eroarea "_", este o denumire compusa si trebuie separata prin linuta jos.
+Students_years     = 31
+Students_country   = "Moldova"
+Students_City      = "Straseni"
+
+"""
+rezultat = students_firstname\
+    and\
+    Students_lastname\
+    and\
+    Students_years\
+    and\
+    Students_country
+
+print("Who is the Student?" , rezultat) """
+
+print("Ma numesc", students_firstname)
+print(Students_lastname)
+print("Am", Students_years, "de ani")
+print("Sunt din", Students_country)
+print("si locuiesc in orasul",Students_City)

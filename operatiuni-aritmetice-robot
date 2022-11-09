@@ -1,0 +1,36 @@
+# Operatii de baza si tipuri de date, mini-robot aspirator
+
+"""
+    SA SE:
+
+    1. determine cati pasi a facut in total robotul
+    2. cu cat s-a deplasat sprea dreapta si in jos robotul fata de pozitia sa initiala
+    3. aleaga o denumire mai potrivita pentru variabilile care arata deplasarea in metri
+
+                    N
+  - - - - - - - - - - - - - - - - - - - -
+ |                                       
+ |                                       |
+ |             R > > > > >               |
+ |            ########### V              |
+ |            #### x #### V              |
+W|            #### ^ #### V              |E
+ |            #### ^ #### V              |
+ |                  < < <                |
+ |                                       |
+ |                                       |
+ |                                       |
+ |                                       |
+  - - - - - - - - - - - - - - - - - - - -
+                  S  
+"""
+walk_E_metri = 5
+walk_S_metri = 4
+walk_W_metri = 3
+walk_N_metri = 2
+
+Pasi_totali_metri = walk_E_metri + walk_S_metri + walk_W_metri + walk_N_metri
+deplasare_dreapta_jos_metri = Pasi_totali_metri - walk_N_metri - walk_W_metri
+
+print("Mini-robotelul a facut in total", Pasi_totali_metri, "metri")
+print("fata de pozitia initala mini-robotelul a parcus", deplasare_dreapta_jos_metri, "metri")
